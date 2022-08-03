@@ -1,0 +1,14 @@
+{
+  "item.scalar_utils_arsenal.adamantine_ingot": "Adamantine Ingot",
+  "item.scalar_utils_arsenal.adamantine_nugget": "Adamantine Nugget",
+  "item.scalar_utils_arsenal.altarus_ingot": "Altarus Ingot",
+  "item.scalar_utils_arsenal.altarus_nugget": "Altarus Nugget",
+  "item.scalar_utils_arsenal.blutstein": "Blutstein",
+  "item.scalar_utils_arsenal.mithril_ingot": "Mithril Ingot",
+  "item.scalar_utils_arsenal.mithril_nugget": "Mithril Nugget",
+  "item.scalar_utils_arsenal.raw_adamantine": "Raw Adamantine",
+  "item.scalar_utils_arsenal.raw_altarus": "Raw Altarus",
+  "item.scalar_utils_arsenal.raw_mithril": "Raw Mithril",
+
+  "itemGroup.scalar_utils_tab": "Scalar Utils 4: Arsenal"
+}
