@@ -9,6 +9,21 @@
   "item.scalar_utils_arsenal.raw_adamantine": "Raw Adamantine",
   "item.scalar_utils_arsenal.raw_altarus": "Raw Altarus",
   "item.scalar_utils_arsenal.raw_mithril": "Raw Mithril",
+  "item.scalar_utils_arsenal.tartarite_ingot": "Tartarite Ingot",
+  "item.scalar_utils_arsenal.tartarite_nugget": "Tartarite Nugget",
+
+  "block.scalar_utils_arsenal.adamantine_block": "Block of Adamantine",
+  "block.scalar_utils_arsenal.adamantine_ore": "Adamantine Ore",
+  "block.scalar_utils_arsenal.altarus_block": "Block of Altarus",
+  "block.scalar_utils_arsenal.altarus_ore": "Altarus Ore",
+  "block.scalar_utils_arsenal.blutstein_block": "Block of Blutstein",
+  "block.scalar_utils_arsenal.blutstein_ore": "Blutstein Ore",
+  "block.scalar_utils_arsenal.deepslate_adamantine_ore": "Deepslate Adamantine Ore",
+  "block.scalar_utils_arsenal.deepslate_altarus_ore": "Deepslate Altarus Ore",
+  "block.scalar_utils_arsenal.deepslate_mithril_ore": "Deepslate Mithril Ore",
+  "block.scalar_utils_arsenal.mithril_block": "Block of Mithril",
+  "block.scalar_utils_arsenal.mithril_ore": "Mithril Ore",
+  "block.scalar_utils_arsenal.tartarite_block": "Block of Tartarite",
 
   "itemGroup.scalar_utils_tab": "Scalar Utils 4: Arsenal"
 }

@@ -11,6 +11,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ScalarUtilsArsenal.MOD_ID);
 
+    /* Items */
+    public static final RegistryObject<Item> TARTARITE_INGOT = ITEMS.register("tartarite_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> TARTARITE_NUGGET = ITEMS.register("tartarite_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
     /* Resources */
     //Gems
     public static final RegistryObject<Item> BLUTSTEIN = ITEMS.register("blutstein", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));

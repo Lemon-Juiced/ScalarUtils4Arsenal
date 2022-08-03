@@ -1,5 +1,6 @@
 package lemon_juice.scalar_utils_arsenal;
 
+import lemon_juice.scalar_utils_arsenal.block.ModBlocks;
 import lemon_juice.scalar_utils_arsenal.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,6 +18,7 @@ public class ScalarUtilsArsenal {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
