@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "scalar_utils_arsenal:raw_mithril"
+  },
+  "item": "scalar_utils_arsenal:mithril_ingot",
+  "experience": 0.1,
+  "cookingtime": 200
+}

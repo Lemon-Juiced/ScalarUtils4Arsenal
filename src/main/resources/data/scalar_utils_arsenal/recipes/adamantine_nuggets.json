@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_arsenal:adamantine_ingot"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_arsenal:adamantine_nugget",
+    "count": 9
+  }
+}

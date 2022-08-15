@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "scalar_utils_arsenal:blutstein"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:blutstein_block",
+    "count": 1
+  }
+}

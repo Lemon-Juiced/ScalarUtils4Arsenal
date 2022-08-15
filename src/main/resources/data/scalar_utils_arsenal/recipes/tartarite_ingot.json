@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_arsenal:adamantine_ingot"
+    },
+    {
+      "item": "scalar_utils_arsenal:altarus_ingot"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_arsenal:tartarite_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii",
+    " /",
+    " /"
+  ],
+  "key": {
+    "i": {
+      "item": "scalar_utils_arsenal:mithril_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:mithril_hoe",
+    "count": 1
+  }
+}

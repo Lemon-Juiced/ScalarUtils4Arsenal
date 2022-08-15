@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "nnn",
+    " n "
+  ],
+  "key": {
+    "#": {
+      "item": "scalar_utils_arsenal:blutstein"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:massivence",
+    "count": 1
+  }
+}

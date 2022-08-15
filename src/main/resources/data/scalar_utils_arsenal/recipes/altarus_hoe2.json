@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii",
+    "/ ",
+    "/ "
+  ],
+  "key": {
+    "i": {
+      "item": "scalar_utils_arsenal:altarus_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:altarus_hoe",
+    "count": 1
+  }
+}
