@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iai",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_block"
+    },
+    "a": {
+      "item": "minecraft:netherite_boots"
+    },
+    "i": {
+      "item": "scalar_utils_arsenal:tartarite_ingot"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:advanced_netherite_boots",
+    "count": 1
+  }
+}

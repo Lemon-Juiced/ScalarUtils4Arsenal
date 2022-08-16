@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "#b#",
+    "#a#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_block"
+    },
+    "a": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "b": {
+      "item": "scalar_utils_arsenal:blutstein"
+    },
+    "i": {
+      "item": "scalar_utils_arsenal:tartarite_ingot"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:advanced_netherite_chestplate",
+    "count": 1
+  }
+}
