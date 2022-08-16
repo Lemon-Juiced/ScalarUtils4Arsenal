@@ -2,6 +2,8 @@ package lemon_juice.scalar_utils_arsenal;
 
 import lemon_juice.scalar_utils_arsenal.block.ModBlocks;
 import lemon_juice.scalar_utils_arsenal.item.ModItems;
+import lemon_juice.scalar_utils_arsenal.world.feature.ModConfiguredFeatures;
+import lemon_juice.scalar_utils_arsenal.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -19,6 +21,9 @@ public class ScalarUtilsArsenal {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

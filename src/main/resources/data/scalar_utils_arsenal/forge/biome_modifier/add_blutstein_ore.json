@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "scalar_utils_arsenal:nether_blutstein_ore_placed",
+  "step": "underground_ores"
+}
