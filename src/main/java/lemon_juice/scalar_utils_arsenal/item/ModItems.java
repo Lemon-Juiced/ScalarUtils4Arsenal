@@ -3,8 +3,10 @@ package lemon_juice.scalar_utils_arsenal.item;
 import lemon_juice.scalar_utils_arsenal.ModCreativeModeTab;
 import lemon_juice.scalar_utils_arsenal.ScalarUtilsArsenal;
 import lemon_juice.scalar_utils_arsenal.item.custom.MassivenceItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.ModArmorMaterials;
 import lemon_juice.scalar_utils_arsenal.item.custom.PalavenceItem;
 import lemon_juice.scalar_utils_arsenal.item.custom.ShickaxeItem;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -34,7 +36,7 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_ALTARUS= ITEMS.register("raw_altarus", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> RAW_MITHRIL = ITEMS.register("raw_mithril", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
-    /* Tools */
+    /* Tools & Armor */
     //Adamantine
     public static final RegistryObject<Item> ADADAMANTINE_AXE = ITEMS.register("adamantine_axe", () -> new AxeItem(ModTiers.ADAMANTINE, 9, -3f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ADADAMANTINE_HOE = ITEMS.register("adamantine_hoe", () -> new HoeItem(ModTiers.ADAMANTINE, -3, 0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
@@ -42,6 +44,12 @@ public class ModItems {
     public static final RegistryObject<Item> ADADAMANTINE_SHICKAXE = ITEMS.register("adamantine_shickaxe", () -> new ShickaxeItem(5, -2.8f, ModTiers.ADAMANTINE, new Item.Properties().stacksTo(1).durability(12_000).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ADADAMANTINE_SHOVEL = ITEMS.register("adamantine_shovel", () -> new ShovelItem(ModTiers.ADAMANTINE, 5.5f, -3f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ADADAMANTINE_SWORD = ITEMS.register("adamantine_sword", () -> new SwordItem(ModTiers.ADAMANTINE, 7, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
+    //Advanced Netherite
+    public static final RegistryObject<Item> ADVANCED_NETHERITE_BOOTS = ITEMS.register("advanced_netherite_boots", () -> new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.FEET, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ADVANCED_NETHERITE_CHESTPLATE = ITEMS.register("advanced_netherite_chestplate", () -> new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.CHEST, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ADVANCED_NETHERITE_HELMET = ITEMS.register("advanced_netherite_helmet", () -> new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.HEAD, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ADVANCED_NETHERITE_LEGGINGS = ITEMS.register("advanced_netherite_leggings", () -> new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.LEGS, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Altarus
     public static final RegistryObject<Item> ALTARUS_AXE = ITEMS.register("altarus_axe", () -> new AxeItem(ModTiers.ALTARUS, 7, -3f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
