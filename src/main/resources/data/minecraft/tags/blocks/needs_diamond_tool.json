@@ -1,6 +1,19 @@
 {
   "replace": false,
   "values": [
-
+    "scalar_utils_arsenal:adamantine_block",
+    "scalar_utils_arsenal:adamantine_ore",
+    "scalar_utils_arsenal:altarus_block",
+    "scalar_utils_arsenal:altarus_ore",
+    "scalar_utils_arsenal:blutstein_block",
+    "scalar_utils_arsenal:blutstein_ore",
+    "scalar_utils_arsenal:deepslate_adamantine_ore",
+    "scalar_utils_arsenal:deepslate_altarus_ore",
+    "scalar_utils_arsenal:deepslate_mithril_ore",
+    "scalar_utils_arsenal:mithril_block",
+    "scalar_utils_arsenal:mithril_ore",
+    "scalar_utils_arsenal:raw_adamantine_block",
+    "scalar_utils_arsenal:raw_altarus_block",
+    "scalar_utils_arsenal:raw_mithril_block"
   ]
 }
