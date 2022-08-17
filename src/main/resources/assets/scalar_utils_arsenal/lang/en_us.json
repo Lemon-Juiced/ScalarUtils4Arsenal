@@ -47,6 +47,9 @@
   "block.scalar_utils_arsenal.deepslate_mithril_ore": "Deepslate Mithril Ore",
   "block.scalar_utils_arsenal.mithril_block": "Block of Mithril",
   "block.scalar_utils_arsenal.mithril_ore": "Mithril Ore",
+  "block.scalar_utils_arsenal.raw_adamantine_block": "Block of Raw Adamantine",
+  "block.scalar_utils_arsenal.raw_altarus_block": "Block of Raw Altarus",
+  "block.scalar_utils_arsenal.raw_mithril_block": "Block of Raw Mithril",
   "block.scalar_utils_arsenal.tartarite_block": "Block of Tartarite",
 
   "itemGroup.scalar_utils_tab": "Scalar Utils 4: Arsenal"

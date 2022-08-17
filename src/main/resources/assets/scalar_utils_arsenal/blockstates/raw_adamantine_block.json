@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "scalar_utils_arsenal:block/raw_adamantine_block" }
+  }
+}

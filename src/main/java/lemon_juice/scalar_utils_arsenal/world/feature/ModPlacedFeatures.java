@@ -16,22 +16,22 @@ public class ModPlacedFeatures {
 
     public static final RegistryObject<PlacedFeature> ADAMANTINE_ORE_PLACED = PLACED_FEATURES.register("adamantine_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.ADAMANTINE_ORE.getHolder().get(),
-                    commonOrePlacement(7, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(0)))));
+                    commonOrePlacement(8, // Veins Per Chunk
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(32)))));
 
     public static final RegistryObject<PlacedFeature> ALTARUS_ORE_PLACED = PLACED_FEATURES.register("altarus_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.ALTARUS_ORE.getHolder().get(),
-                    commonOrePlacement(7, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(0)))));
+                    commonOrePlacement(8, // Veins Per Chunk
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(32)))));
 
     public static final RegistryObject<PlacedFeature> MITHRIL_ORE_PLACED = PLACED_FEATURES.register("mithril_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.ALTARUS_ORE.getHolder().get(),
-                    commonOrePlacement(7, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(32)))));
+                    commonOrePlacement(12, // Veins Per Chunk
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(64)))));
 
 
     public static final RegistryObject<PlacedFeature> NETHER_BLUTSTEIN_ORE_PLACED = PLACED_FEATURES.register("nether_blutstein_ore_placed",
-            () -> new PlacedFeature(ModConfiguredFeatures.NETHER_BLUTSTEIN_ORE.getHolder().get(), commonOrePlacement(7, // VeinsPerChunk
+            () -> new PlacedFeature(ModConfiguredFeatures.NETHER_BLUTSTEIN_ORE.getHolder().get(), commonOrePlacement(7, // Veins Per Chunk
                     HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80)))));
 
 

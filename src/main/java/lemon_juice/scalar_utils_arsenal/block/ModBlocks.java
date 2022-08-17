@@ -26,6 +26,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ALTARUS_BLOCK = registerBlock("altarus_block", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.SCALAR_UTILS_TAB);
     public static final RegistryObject<Block> BLUTSTEIN_BLOCK = registerBlock("blutstein_block", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.SCALAR_UTILS_TAB);
     public static final RegistryObject<Block> MITHRIL_BLOCK = registerBlock("mithril_block", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.SCALAR_UTILS_TAB);
+    public static final RegistryObject<Block> RAW_ADAMANTINE_BLOCK = registerBlock("raw_adamantine_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.SCALAR_UTILS_TAB);
+    public static final RegistryObject<Block> RAW_ALTARUS_BLOCK = registerBlock("raw_altarus_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.SCALAR_UTILS_TAB);
+    public static final RegistryObject<Block> RAW_MITHRIL_BLOCK = registerBlock("raw_mithril_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.SCALAR_UTILS_TAB);
     public static final RegistryObject<Block> TARTARITE_BLOCK = registerBlock("tartarite_block", () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.SCALAR_UTILS_TAB);
 
     /* Nether Ores */
