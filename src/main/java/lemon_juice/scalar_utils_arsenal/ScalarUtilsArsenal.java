@@ -19,9 +19,11 @@ public class ScalarUtilsArsenal {
     public ScalarUtilsArsenal() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        //Register Items and Blocks
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        //Register World Generation
         ModConfiguredFeatures.register(modEventBus);
         ModPlacedFeatures.register(modEventBus);
 
@@ -31,14 +33,12 @@ public class ScalarUtilsArsenal {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
         }
     }
 }
