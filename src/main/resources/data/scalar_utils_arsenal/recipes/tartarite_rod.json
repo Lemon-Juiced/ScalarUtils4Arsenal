@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "i",
-    "i",
-    "/"
+    " # ",
+    "#r#",
+    " # "
   ],
   "key": {
-    "i": {
-      "item": "scalar_utils_arsenal:blutstein"
+    "#": {
+      "item": "scalar_utils_arsenal:tartarite_ingot"
     },
-    "/": {
+    "r": {
       "item": "scalar_utils_arsenal:netherite_rod"
     }
   },
   "result": {
-    "item": "scalar_utils_arsenal:blutstein_sword",
+    "item": "scalar_utils_arsenal:tartarite_rod",
     "count": 1
   }
 }
