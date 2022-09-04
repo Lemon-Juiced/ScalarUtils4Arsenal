@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_arsenal:raw_adamantine_block"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_arsenal:raw_adamantine",
+    "count": 9
+  }
+}
