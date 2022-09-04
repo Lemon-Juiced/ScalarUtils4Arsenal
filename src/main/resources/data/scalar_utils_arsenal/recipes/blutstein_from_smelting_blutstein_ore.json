@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "scalar_utils_arsenal:blutstein_ore"
+  },
+  "result": "scalar_utils_arsenal:blutstein"
+}

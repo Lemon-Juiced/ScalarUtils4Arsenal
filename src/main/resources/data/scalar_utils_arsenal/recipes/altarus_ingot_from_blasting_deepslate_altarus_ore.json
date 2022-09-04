@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "scalar_utils_arsenal:deepslate_altarus_ore"
+  },
+  "result": "scalar_utils_arsenal:altarus_ingot"
+}
