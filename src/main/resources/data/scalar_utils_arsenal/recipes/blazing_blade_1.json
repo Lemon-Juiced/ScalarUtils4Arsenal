@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "#R#",
+    "#/#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_powder"
+    },
+    "R": {
+      "item": "minecraft:redstone_ore"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:blazing_sword",
+    "count": 1
+  }
+}
