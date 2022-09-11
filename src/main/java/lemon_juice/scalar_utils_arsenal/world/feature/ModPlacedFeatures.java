@@ -25,7 +25,7 @@ public class ModPlacedFeatures {
                             HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(32)))));
 
     public static final RegistryObject<PlacedFeature> MITHRIL_ORE_PLACED = PLACED_FEATURES.register("mithril_ore_placed",
-            () -> new PlacedFeature(ModConfiguredFeatures.ALTARUS_ORE.getHolder().get(),
+            () -> new PlacedFeature(ModConfiguredFeatures.MITHRIL_ORE.getHolder().get(),
                     commonOrePlacement(12, // Veins Per Chunk
                             HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(64)))));
 
