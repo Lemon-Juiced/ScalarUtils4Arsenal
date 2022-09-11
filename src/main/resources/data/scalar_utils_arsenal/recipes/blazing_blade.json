@@ -10,7 +10,7 @@
       "item": "minecraft:blaze_powder"
     },
     "R": {
-      "item": "minecraft:redstone_ore"
+      "tag": "forge:ores/redstone"
     },
     "/": {
       "item": "minecraft:stick"
