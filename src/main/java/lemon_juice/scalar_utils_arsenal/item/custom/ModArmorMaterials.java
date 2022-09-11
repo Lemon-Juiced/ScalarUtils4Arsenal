@@ -7,6 +7,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
@@ -22,7 +23,8 @@ public enum ModArmorMaterials implements ArmorMaterial {
     NETHERITE("netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> { return Ingredient.of(Items.NETHERITE_INGOT); });
     */
 
-    ADVANCED_NETHERITE("advanced_netherite", 16, new int[]{6, 12, 16, 6}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 6.0F, 0.2F, () -> { return Ingredient.of(ModBlocks.TARTARITE_BLOCK.get()); });
+    ADVANCED_NETHERITE("advanced_netherite", 40, new int[]{6, 12, 16, 6}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 6.0F, 0.2F, () -> { return Ingredient.of(ModBlocks.TARTARITE_BLOCK.get()); }),
+    COPPER("copper", 15, new int[]{1, 4, 5, 2}, 20, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> { return Ingredient.of(Items.COPPER_INGOT);} );
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

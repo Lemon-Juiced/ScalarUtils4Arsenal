@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "/",
+    "/"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:coppper_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:copper_shovel",
+    "count": 1
+  }
+}

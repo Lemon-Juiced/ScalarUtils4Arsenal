@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:coppper_ingot"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:copper_chestplate",
+    "count": 1
+  }
+}
