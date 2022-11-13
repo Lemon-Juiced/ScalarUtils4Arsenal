@@ -1,6 +1,6 @@
 package lemon_juice.scalar_utils_arsenal.item;
 
-import lemon_juice.scalar_utils_arsenal.ModCreativeModeTab;
+import lemon_juice.scalar_utils_arsenal.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_arsenal.ScalarUtilsArsenal;
 import lemon_juice.scalar_utils_arsenal.item.custom.*;
 import net.minecraft.world.entity.EquipmentSlot;

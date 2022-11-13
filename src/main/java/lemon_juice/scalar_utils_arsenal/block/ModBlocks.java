@@ -1,6 +1,6 @@
 package lemon_juice.scalar_utils_arsenal.block;
 
-import lemon_juice.scalar_utils_arsenal.ModCreativeModeTab;
+import lemon_juice.scalar_utils_arsenal.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_arsenal.ScalarUtilsArsenal;
 import lemon_juice.scalar_utils_arsenal.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
