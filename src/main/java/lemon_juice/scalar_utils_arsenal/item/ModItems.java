@@ -80,7 +80,7 @@ public class ModItems {
     public static final RegistryObject<Item> MITHRIL_SWORD = ITEMS.register("mithril_sword", () -> new SwordItem(ModTiers.MITHRIL, 2, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Non-Associated
-    public static final RegistryObject<Item> ADADAMANTINE_SHICKAXE = ITEMS.register("adamantine_shickaxe", () -> new ShickaxeItem(5, -2.8f, ModTiers.ADAMANTINE, new Item.Properties().stacksTo(1).durability(12_000).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ADAMANTINE_SHICKAXE = ITEMS.register("adamantine_shickaxe", () -> new ShickaxeItem(5, -2.8f, ModTiers.ADAMANTINE, new Item.Properties().stacksTo(1).durability(12_000).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ALTARUS_SHICKAXE = ITEMS.register("altarus_shickaxe", () -> new ShickaxeItem(3, -2.8f, ModTiers.ALTARUS, new Item.Properties().stacksTo(1).durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> BLAZING_SWORD = ITEMS.register("blazing_sword", () -> new BlazingBladeItem(Tiers.IRON, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> MASSIVENCE = ITEMS.register("massivence", () -> new MassivenceItem(ModTiers.VENCE, 0, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
