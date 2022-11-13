@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:nether_star"
+  },
+  "addition": {
+    "item": "minecraft:dragon_breath"
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:dragon_star"
+  }
+}
