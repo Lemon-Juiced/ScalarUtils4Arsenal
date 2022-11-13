@@ -24,7 +24,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     NETHERITE("netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> { return Ingredient.of(Items.NETHERITE_INGOT); });
     */
 
-    ADVANCED_NETHERITE("advanced_netherite", 40, new int[]{6, 12, 16, 6}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 6.0F, 0.2F, () -> { return Ingredient.of(ModBlocks.TARTARITE_BLOCK.get()); }),
+    ADVANCED_NETHERITE("advanced_netherite", 40, new int[]{4, 7, 9, 4}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 4.0F, 0.2F, () -> { return Ingredient.of(ModBlocks.TARTARITE_BLOCK.get()); }),
     ANGELIC("angelic", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> { return Ingredient.of(ModItems.LONSDALEITE.get()); }),
     COPPER("copper", 15, new int[]{1, 4, 5, 2}, 20, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> { return Ingredient.of(Items.COPPER_INGOT);} );
 
