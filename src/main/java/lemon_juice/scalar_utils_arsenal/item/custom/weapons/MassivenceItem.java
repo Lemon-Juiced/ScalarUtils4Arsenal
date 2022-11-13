@@ -1,4 +1,4 @@
-package lemon_juice.scalar_utils_arsenal.item.custom;
+package lemon_juice.scalar_utils_arsenal.item.custom.weapons;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -14,8 +14,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class PalavenceItem extends SwordItem {
-    public PalavenceItem(Tier tier, int p_43270_, float p_43271_, Properties properties) {
+public class MassivenceItem extends SwordItem {
+    public MassivenceItem(Tier tier, int p_43270_, float p_43271_, Properties properties) {
         super(tier, p_43270_, p_43271_, properties);
     }
 
@@ -23,7 +23,7 @@ public class PalavenceItem extends SwordItem {
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         if(!level.isClientSide && hand == InteractionHand.MAIN_HAND){
             //Heal User
-            player.setHealth(player.getHealth() + .5f);
+            player.setHealth(player.getHealth() + 1f);
 
             //Use Durability
             if(player != null)

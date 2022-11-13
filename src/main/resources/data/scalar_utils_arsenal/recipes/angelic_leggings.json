@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "scalar_utils_arsenal:lonsdaleite"
+    },
+    "D": {
+      "item": "scalar_utils_arsenal:dragon_star"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:angelic_leggings",
+    "count": 1
+  }
+}

@@ -1,4 +1,4 @@
-package lemon_juice.scalar_utils_arsenal.item.custom;
+package lemon_juice.scalar_utils_arsenal.item.custom.tools;
 
 import lemon_juice.scalar_utils_arsenal.item.custom.util.DataTags;
 import net.minecraft.world.item.DiggerItem;

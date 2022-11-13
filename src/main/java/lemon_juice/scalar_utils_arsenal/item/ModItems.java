@@ -2,7 +2,12 @@ package lemon_juice.scalar_utils_arsenal.item;
 
 import lemon_juice.scalar_utils_arsenal.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_arsenal.ScalarUtilsArsenal;
-import lemon_juice.scalar_utils_arsenal.item.custom.*;
+import lemon_juice.scalar_utils_arsenal.item.custom.armor.AngelicArmorItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.armor.ModArmorMaterials;
+import lemon_juice.scalar_utils_arsenal.item.custom.tools.ShickaxeItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.weapons.BlazingBladeItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.weapons.MassivenceItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.weapons.PalavenceItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -58,6 +63,12 @@ public class ModItems {
     public static final RegistryObject<Item> ALTARUS_PICKAXE = ITEMS.register("altarus_pickaxe", () -> new PickaxeItem(ModTiers.ALTARUS, 3, -2.8f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ALTARUS_SHOVEL = ITEMS.register("altarus_shovel", () -> new ShovelItem(ModTiers.ALTARUS, 3.5f, -3f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ALTARUS_SWORD = ITEMS.register("altarus_sword", () -> new SwordItem(ModTiers.ALTARUS, 5, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
+    //Angelic Armor
+    public static final RegistryObject<Item> ANGELIC_BOOTS = ITEMS.register("angelic_boots", () -> new ArmorItem(ModArmorMaterials.ANGELIC, EquipmentSlot.FEET, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ANGELIC_CHESTPLATE = ITEMS.register("angelic_chestplate", () -> new AngelicArmorItem(ModArmorMaterials.ANGELIC, EquipmentSlot.CHEST, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ANGELIC_HELMET = ITEMS.register("angelic_helmet", () -> new ArmorItem(ModArmorMaterials.ANGELIC, EquipmentSlot.HEAD, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ANGELIC_LEGGINGS = ITEMS.register("angelic_leggings", () -> new ArmorItem(ModArmorMaterials.ANGELIC, EquipmentSlot.LEGS, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Blutstein
     public static final RegistryObject<Item> BLUTSTEIN_SWORD = ITEMS.register("blutstein_sword", () -> new SwordItem(ModTiers.BLUTSTEIN_UNBREAKABLE, 5, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));

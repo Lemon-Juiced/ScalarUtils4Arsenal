@@ -1,4 +1,4 @@
-package lemon_juice.scalar_utils_arsenal.item.custom;
+package lemon_juice.scalar_utils_arsenal.item.custom.weapons;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
