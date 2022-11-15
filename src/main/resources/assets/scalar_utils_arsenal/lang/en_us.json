@@ -47,14 +47,10 @@
   "item.scalar_utils_arsenal.mithril_pickaxe": "Mithril Pickaxe",
   "item.scalar_utils_arsenal.mithril_shovel": "Mithril Shovel",
   "item.scalar_utils_arsenal.mithril_sword": "Mithril Sword",
-  "item.scalar_utils_arsenal.netherite_rod": "Netherite Rod",
   "item.scalar_utils_arsenal.palavence": "Palavence",
   "item.scalar_utils_arsenal.raw_adamantine": "Raw Adamantine",
   "item.scalar_utils_arsenal.raw_altarus": "Raw Altarus",
   "item.scalar_utils_arsenal.raw_mithril": "Raw Mithril",
-  "item.scalar_utils_arsenal.tartarite_ingot": "Tartarite Ingot",
-  "item.scalar_utils_arsenal.tartarite_nugget": "Tartarite Nugget",
-  "item.scalar_utils_arsenal.tartarite_rod": "Tartarite Rod",
 
   "block.scalar_utils_arsenal.adamantine_block": "Block of Adamantine",
   "block.scalar_utils_arsenal.adamantine_ore": "Adamantine Ore",
@@ -70,7 +66,6 @@
   "block.scalar_utils_arsenal.raw_adamantine_block": "Block of Raw Adamantine",
   "block.scalar_utils_arsenal.raw_altarus_block": "Block of Raw Altarus",
   "block.scalar_utils_arsenal.raw_mithril_block": "Block of Raw Mithril",
-  "block.scalar_utils_arsenal.tartarite_block": "Block of Tartarite",
 
   "itemGroup.arsenalTab": "Scalar Utils 4: Arsenal"
 }

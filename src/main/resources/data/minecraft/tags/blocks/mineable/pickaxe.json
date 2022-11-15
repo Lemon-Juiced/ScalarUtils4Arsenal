@@ -14,7 +14,6 @@
     "scalar_utils_arsenal:mithril_ore",
     "scalar_utils_arsenal:raw_adamantine_block",
     "scalar_utils_arsenal:raw_altarus_block",
-    "scalar_utils_arsenal:raw_mithril_block",
-    "scalar_utils_arsenal:tartarite_block"
+    "scalar_utils_arsenal:raw_mithril_block"
   ]
 }

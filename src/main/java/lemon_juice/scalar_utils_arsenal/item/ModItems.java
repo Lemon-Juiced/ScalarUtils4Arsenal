@@ -24,10 +24,6 @@ public class ModItems {
     public static final RegistryObject<Item> BLUTSTEIN_ROD = ITEMS.register("blutstein_rod", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> DRAGON_STAR = ITEMS.register("dragon_star", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> LONSDALEITE = ITEMS.register("lonsdaleite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> NETHERITE_ROD = ITEMS.register("netherite_rod", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    //public static final RegistryObject<Item> TARTARITE_INGOT = ITEMS.register("tartarite_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    //public static final RegistryObject<Item> TARTARITE_NUGGET = ITEMS.register("tartarite_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    //public static final RegistryObject<Item> TARTARITE_ROD = ITEMS.register("tartarite_rod", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     /* Resources */
     //Gems
