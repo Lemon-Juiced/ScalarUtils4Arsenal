@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "scalar_utils_arsenal:item/advanced_netherite_chestplate"
-  }
-}

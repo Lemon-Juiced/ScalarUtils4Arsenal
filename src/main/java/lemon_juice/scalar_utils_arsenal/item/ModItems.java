@@ -4,6 +4,7 @@ import lemon_juice.scalar_utils_arsenal.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_arsenal.ScalarUtilsArsenal;
 import lemon_juice.scalar_utils_arsenal.item.custom.armor.AngelicArmorItem;
 import lemon_juice.scalar_utils_arsenal.item.custom.armor.AngelicChestplateItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.armor.GildedNetheriteArmorItem;
 import lemon_juice.scalar_utils_arsenal.item.custom.armor.ModArmorMaterials;
 import lemon_juice.scalar_utils_arsenal.item.custom.tools.ShickaxeItem;
 import lemon_juice.scalar_utils_arsenal.item.custom.weapons.BlazingBladeItem;
@@ -20,12 +21,13 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ScalarUtilsArsenal.MOD_ID);
 
     /* Items */
+    public static final RegistryObject<Item> BLUTSTEIN_ROD = ITEMS.register("blutstein_rod", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> DRAGON_STAR = ITEMS.register("dragon_star", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> LONSDALEITE = ITEMS.register("lonsdaleite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> NETHERITE_ROD = ITEMS.register("netherite_rod", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> TARTARITE_INGOT = ITEMS.register("tartarite_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> TARTARITE_NUGGET = ITEMS.register("tartarite_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> TARTARITE_ROD = ITEMS.register("tartarite_rod", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    //public static final RegistryObject<Item> TARTARITE_INGOT = ITEMS.register("tartarite_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    //public static final RegistryObject<Item> TARTARITE_NUGGET = ITEMS.register("tartarite_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    //public static final RegistryObject<Item> TARTARITE_ROD = ITEMS.register("tartarite_rod", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     /* Resources */
     //Gems
@@ -51,12 +53,6 @@ public class ModItems {
     public static final RegistryObject<Item> ADAMANTINE_PICKAXE = ITEMS.register("adamantine_pickaxe", () -> new PickaxeItem(ModTiers.ADAMANTINE, 1, -2.8f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ADAMANTINE_SHOVEL = ITEMS.register("adamantine_shovel", () -> new ShovelItem(ModTiers.ADAMANTINE, 1f, -3f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ADAMANTINE_SWORD = ITEMS.register("adamantine_sword", () -> new SwordItem(ModTiers.ADAMANTINE, 3, -1.6f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-
-    //Advanced Netherite
-    public static final RegistryObject<Item> ADVANCED_NETHERITE_BOOTS = ITEMS.register("advanced_netherite_boots", () -> new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.FEET, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> ADVANCED_NETHERITE_CHESTPLATE = ITEMS.register("advanced_netherite_chestplate", () -> new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.CHEST, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> ADVANCED_NETHERITE_HELMET = ITEMS.register("advanced_netherite_helmet", () -> new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.HEAD, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> ADVANCED_NETHERITE_LEGGINGS = ITEMS.register("advanced_netherite_leggings", () -> new ArmorItem(ModArmorMaterials.ADVANCED_NETHERITE, EquipmentSlot.LEGS, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Altarus
     public static final RegistryObject<Item> ALTARUS_AXE = ITEMS.register("altarus_axe", () -> new AxeItem(ModTiers.ALTARUS, 5, -3f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
@@ -84,6 +80,12 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ModTiers.COPPER, 1, -2.8f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModTiers.COPPER, 1.5f, -3.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ModTiers.COPPER, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
+    //Gilded Netherite
+    public static final RegistryObject<Item> GILDED_NETHERITE_BOOTS = ITEMS.register("gilded_netherite_boots", () -> new GildedNetheriteArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> GILDED_NETHERITE_CHESTPLATE = ITEMS.register("gilded_netherite_chestplate", () -> new GildedNetheriteArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> GILDED_NETHERITE_HELMET = ITEMS.register("gilded_netherite_helmet", () -> new GildedNetheriteArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> GILDED_NETHERITE_LEGGINGS = ITEMS.register("gilded_netherite_leggings", () -> new GildedNetheriteArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Mithril
     public static final RegistryObject<Item> MITHRIL_AXE = ITEMS.register("mithril_axe", () -> new AxeItem(ModTiers.MITHRIL, 5, -3.1f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
