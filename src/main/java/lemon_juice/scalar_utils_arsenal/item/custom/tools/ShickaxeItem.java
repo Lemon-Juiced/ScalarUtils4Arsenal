@@ -5,7 +5,7 @@ import net.minecraft.world.item.DiggerItem;
 import net.minecraft.world.item.Tier;
 
 public class ShickaxeItem extends DiggerItem {
-    public ShickaxeItem(float p_204108_, float p_204109_, Tier tier, Properties properties) {
-        super(p_204108_, p_204109_, tier, DataTags.WITH_SHICKAXE, properties);
+    public ShickaxeItem(float v, float v1, Tier tier, Properties properties) {
+        super(v, v1, tier, DataTags.WITH_SHICKAXE, properties);
     }
 }

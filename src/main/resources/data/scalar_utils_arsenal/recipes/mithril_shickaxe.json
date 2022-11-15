@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_arsenal:mithril_shovel"
+    },
+    {
+      "item": "scalar_utils_arsenal:mithril_pickaxe"
+    },
+    {
+      "item": "scalar_utils_arsenal:mithril_axe"
+    },
+    {
+      "item": "scalar_utils_arsenal:mithril_hoe"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_arsenal:mithril_shickaxe",
+    "count": 1
+  }
+}
