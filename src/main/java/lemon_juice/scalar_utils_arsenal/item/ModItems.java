@@ -39,6 +39,7 @@ public class ModItems {
     public static final RegistryObject<Item> ADAMANTINE_NUGGET = ITEMS.register("adamantine_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ALTARUS_NUGGET = ITEMS.register("altarus_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_NUGGET = ITEMS.register("deischalkos_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> EXIMITE_NUGGET = ITEMS.register("eximite_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> MEUTOITE_NUGGET = ITEMS.register("meutoite_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> MITHRIL_NUGGET = ITEMS.register("mithril_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
@@ -80,6 +81,18 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_SHICKAXE = ITEMS.register("copper_shickaxe", () -> new ShickaxeItem(1, -2.8f, ModTiers.COPPER, new Item.Properties().durability(524).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModTiers.COPPER, 1.5f, -3.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ModTiers.COPPER, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
+    //Deischalkos
+    public static final RegistryObject<Item> DEISCHALKOS_AXE = ITEMS.register("deischalkos_axe", () -> new AxeItem(ModTiers.DEISCHALKOS, 6.0f, -3.1f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_BOOTS = ITEMS.register("deischalkos_boots", () -> new ArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_CHESTPLATE = ITEMS.register("deischalkos_chestplate", () -> new ArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_HELMET = ITEMS.register("deischalkos_helmet", () -> new ArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_HOE = ITEMS.register("deischalkos_hoe", () -> new HoeItem(ModTiers.DEISCHALKOS, -2, -1.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_LEGGINGS = ITEMS.register("deischalkos_leggings", () -> new ArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_PICKAXE = ITEMS.register("deischalkos_pickaxe", () -> new PickaxeItem(ModTiers.DEISCHALKOS, 1, -2.8f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_SHICKAXE = ITEMS.register("deischalkos_shickaxe", () -> new ShickaxeItem(1, -2.8f, ModTiers.DEISCHALKOS, new Item.Properties().durability(7200).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_SHOVEL = ITEMS.register("deischalkos_shovel", () -> new ShovelItem(ModTiers.DEISCHALKOS, 1.5f, -3.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_SWORD = ITEMS.register("deischalkos_sword", () -> new SwordItem(ModTiers.DEISCHALKOS, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Ethereal Armor
     public static final RegistryObject<Item> ETHEREAL_BOOTS = ITEMS.register("ethereal_boots", () -> new EtherealArmorItem(ModArmorMaterials.ETHEREAL, EquipmentSlot.FEET, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));

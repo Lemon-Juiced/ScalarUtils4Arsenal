@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "i i",
     "iii",
-    "iii"
+    "i i",
+    "i i"
   ],
   "key": {
     "i": {
-      "item": "minecraft:copper_ingot"
+      "item": "scalar_utils_arsenal:eximite_ingot"
     }
   },
   "result": {
-    "item": "scalar_utils_arsenal:copper_chestplate",
+    "item": "scalar_utils_arsenal:eximite_leggings",
     "count": 1
   }
 }

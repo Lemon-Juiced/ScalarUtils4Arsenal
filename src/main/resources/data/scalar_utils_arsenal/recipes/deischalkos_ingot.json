@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "scalar_utils_arsenal:eximite_ingot"
+  },
+  "addition": {
+    "item": "scalar_utils_arsenal:meutoite_ingot"
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:deischalkos_ingot"
+  }
+}

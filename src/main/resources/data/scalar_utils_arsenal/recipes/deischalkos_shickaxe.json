@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_arsenal:deischalkos_shovel"
+    },
+    {
+      "item": "scalar_utils_arsenal:deischalkos_pickaxe"
+    },
+    {
+      "item": "scalar_utils_arsenal:deischalkos_axe"
+    },
+    {
+      "item": "scalar_utils_arsenal:deischalkos_hoe"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_arsenal:deischalkos_shickaxe",
+    "count": 1
+  }
+}

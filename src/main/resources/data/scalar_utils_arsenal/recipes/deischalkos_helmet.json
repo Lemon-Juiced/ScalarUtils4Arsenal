@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iei",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "item": "scalar_utils_arsenal:deischalkos_ingot"
+    },
+    "e": {
+      "item": "scalar_utils_arsenal:ethereal_helmet"
+    }
+
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:deischalkos_helmet",
+    "count": 1
+  }
+}
