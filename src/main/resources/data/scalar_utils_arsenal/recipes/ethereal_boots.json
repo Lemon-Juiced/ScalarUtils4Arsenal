@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "# #",
-    "#D#",
-    "###"
+    "#D#"
   ],
   "key": {
     "#": {
@@ -14,7 +13,7 @@
     }
   },
   "result": {
-    "item": "scalar_utils_arsenal:angelic_chestplate",
+    "item": "scalar_utils_arsenal:ethereal_boots",
     "count": 1
   }
 }

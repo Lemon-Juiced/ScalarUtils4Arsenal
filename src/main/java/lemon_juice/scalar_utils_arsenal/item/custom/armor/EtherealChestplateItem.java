@@ -7,8 +7,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 
-public class AngelicChestplateItem extends AngelicArmorItem {
-    public AngelicChestplateItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
+public class EtherealChestplateItem extends EtherealArmorItem {
+    public EtherealChestplateItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
         super(material, slot, properties);
     }
 
@@ -42,7 +42,7 @@ public class AngelicChestplateItem extends AngelicArmorItem {
     }
 
     private boolean hasCorrectArmorOn(Player player){
-        ArmorMaterial material = ModArmorMaterials.ANGELIC;
+        ArmorMaterial material = ModArmorMaterials.ETHEREAL;
         if(player.getInventory().getArmor(0).getItem() == Items.AIR ||
                 (player.getInventory().getArmor(1).getItem() == Items.AIR) ||
                 (player.getInventory().getArmor(2).getItem() == Items.AIR) ||

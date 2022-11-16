@@ -2,8 +2,8 @@ package lemon_juice.scalar_utils_arsenal.item;
 
 import lemon_juice.scalar_utils_arsenal.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_arsenal.ScalarUtilsArsenal;
-import lemon_juice.scalar_utils_arsenal.item.custom.armor.AngelicArmorItem;
-import lemon_juice.scalar_utils_arsenal.item.custom.armor.AngelicChestplateItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.armor.EtherealArmorItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.armor.EtherealChestplateItem;
 import lemon_juice.scalar_utils_arsenal.item.custom.armor.GildedNetheriteArmorItem;
 import lemon_juice.scalar_utils_arsenal.item.custom.armor.ModArmorMaterials;
 import lemon_juice.scalar_utils_arsenal.item.custom.tools.ShickaxeItem;
@@ -66,12 +66,6 @@ public class ModItems {
     public static final RegistryObject<Item> ALTARUS_SHOVEL = ITEMS.register("altarus_shovel", () -> new ShovelItem(ModTiers.ALTARUS, 1.5f, -3f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ALTARUS_SWORD = ITEMS.register("altarus_sword", () -> new SwordItem(ModTiers.ALTARUS, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
-    //Angelic Armor
-    public static final RegistryObject<Item> ANGELIC_BOOTS = ITEMS.register("angelic_boots", () -> new AngelicArmorItem(ModArmorMaterials.ANGELIC, EquipmentSlot.FEET, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> ANGELIC_CHESTPLATE = ITEMS.register("angelic_chestplate", () -> new AngelicChestplateItem(ModArmorMaterials.ANGELIC, EquipmentSlot.CHEST, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> ANGELIC_HELMET = ITEMS.register("angelic_helmet", () -> new AngelicArmorItem(ModArmorMaterials.ANGELIC, EquipmentSlot.HEAD, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> ANGELIC_LEGGINGS = ITEMS.register("angelic_leggings", () -> new AngelicArmorItem(ModArmorMaterials.ANGELIC, EquipmentSlot.LEGS, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-
     //Blutstein
     public static final RegistryObject<Item> BLUTSTEIN_SWORD = ITEMS.register("blutstein_sword", () -> new SwordItem(ModTiers.BLUTSTEIN_UNBREAKABLE, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
@@ -86,6 +80,12 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_SHICKAXE = ITEMS.register("copper_shickaxe", () -> new ShickaxeItem(1, -2.8f, ModTiers.COPPER, new Item.Properties().durability(524).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModTiers.COPPER, 1.5f, -3.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ModTiers.COPPER, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
+    //Ethereal Armor
+    public static final RegistryObject<Item> ETHEREAL_BOOTS = ITEMS.register("ethereal_boots", () -> new EtherealArmorItem(ModArmorMaterials.ETHEREAL, EquipmentSlot.FEET, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ETHEREAL_CHESTPLATE = ITEMS.register("ethereal_chestplate", () -> new EtherealChestplateItem(ModArmorMaterials.ETHEREAL, EquipmentSlot.CHEST, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ETHEREAL_HELMET = ITEMS.register("ethereal_helmet", () -> new EtherealArmorItem(ModArmorMaterials.ETHEREAL, EquipmentSlot.HEAD, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ETHEREAL_LEGGINGS = ITEMS.register("ethereal_leggings", () -> new EtherealArmorItem(ModArmorMaterials.ETHEREAL, EquipmentSlot.LEGS, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Eximite
     public static final RegistryObject<Item> EXIMITE_AXE = ITEMS.register("eximite_axe", () -> new AxeItem(ModTiers.EXIMITE, 6.0f, -3.1f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));

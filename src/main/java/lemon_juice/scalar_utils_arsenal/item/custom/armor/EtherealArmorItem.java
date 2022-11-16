@@ -12,8 +12,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class AngelicArmorItem extends ArmorItem {
-    public AngelicArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
+public class EtherealArmorItem extends ArmorItem {
+    public EtherealArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
         super(material, slot, properties);
     }
 
