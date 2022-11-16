@@ -4,9 +4,15 @@
     "scalar_utils_arsenal:adamantine_ore",
     "scalar_utils_arsenal:altarus_ore",
     "scalar_utils_arsenal:blutstein_ore",
+    "scalar_utils_arsenal:eximite_block",
+    "scalar_utils_arsenal:eximite_ore",
     "scalar_utils_arsenal:deepslate_adamantine_ore",
     "scalar_utils_arsenal:deepslate_altarus_ore",
     "scalar_utils_arsenal:deepslate_mithril_ore",
-    "scalar_utils_arsenal:mithril_ore"
+    "scalar_utils_arsenal:meutoite_block",
+    "scalar_utils_arsenal:meutoite_ore",
+    "scalar_utils_arsenal:mithril_ore",
+    "scalar_utils_arsenal:raw_eximite_block",
+    "scalar_utils_arsenal:raw_meutoite_block"
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "i i",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "scalar_utils_arsenal:meutoite_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 8
+  }
+}

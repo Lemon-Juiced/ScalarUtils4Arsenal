@@ -32,15 +32,21 @@ public class ModItems {
     public static final RegistryObject<Item> ADAMANTINE_INGOT = ITEMS.register("adamantine_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ALTARUS_INGOT = ITEMS.register("altarus_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> DEISCHALKOS_INGOT = ITEMS.register("deischalkos_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_INGOT = ITEMS.register("eximite_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> MEUTOITE_INGOT = ITEMS.register("meutoite_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> MITHRIL_INGOT = ITEMS.register("mithril_ingot", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Nuggets
     public static final RegistryObject<Item> ADAMANTINE_NUGGET = ITEMS.register("adamantine_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ALTARUS_NUGGET = ITEMS.register("altarus_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_NUGGET = ITEMS.register("eximite_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> MEUTOITE_NUGGET = ITEMS.register("meutoite_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> MITHRIL_NUGGET = ITEMS.register("mithril_nugget", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Raw Ores
     public static final RegistryObject<Item> RAW_ADAMANTINE = ITEMS.register("raw_adamantine", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> RAW_ALTARUS= ITEMS.register("raw_altarus", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> RAW_EXIMITE = ITEMS.register("raw_eximite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> RAW_MEUTOITE = ITEMS.register("raw_meutoite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> RAW_MITHRIL = ITEMS.register("raw_mithril", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     /* Tools & Armor */
@@ -71,15 +77,27 @@ public class ModItems {
 
     //Copper
     public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe", () -> new AxeItem(ModTiers.COPPER, 6.0f, -3.1f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.FEET, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.CHEST, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.HEAD, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe", () -> new HoeItem(ModTiers.COPPER, -2, -1.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.LEGS, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ModTiers.COPPER, 1, -2.8f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SHICKAXE = ITEMS.register("copper_shickaxe", () -> new ShickaxeItem(1, -2.8f, ModTiers.COPPER, new Item.Properties().durability(524).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModTiers.COPPER, 1.5f, -3.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ModTiers.COPPER, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
+    //Eximite
+    public static final RegistryObject<Item> EXIMITE_AXE = ITEMS.register("eximite_axe", () -> new AxeItem(ModTiers.EXIMITE, 6.0f, -3.1f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_BOOTS = ITEMS.register("eximite_boots", () -> new ArmorItem(ModArmorMaterials.EXIMITE, EquipmentSlot.FEET, new Item.Properties().durability(1000).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_CHESTPLATE = ITEMS.register("eximite_chestplate", () -> new ArmorItem(ModArmorMaterials.EXIMITE, EquipmentSlot.CHEST, new Item.Properties().durability(1000).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_HELMET = ITEMS.register("eximite_helmet", () -> new ArmorItem(ModArmorMaterials.EXIMITE, EquipmentSlot.HEAD, new Item.Properties().durability(1000).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_HOE = ITEMS.register("eximite_hoe", () -> new HoeItem(ModTiers.EXIMITE, -2, -1.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_LEGGINGS = ITEMS.register("eximite_leggings", () -> new ArmorItem(ModArmorMaterials.EXIMITE, EquipmentSlot.LEGS, new Item.Properties().durability(1000).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_PICKAXE = ITEMS.register("eximite_pickaxe", () -> new PickaxeItem(ModTiers.EXIMITE, 1, -2.8f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_SHICKAXE = ITEMS.register("eximite_shickaxe", () -> new ShickaxeItem(1, -2.8f, ModTiers.EXIMITE, new Item.Properties().durability(4000).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_SHOVEL = ITEMS.register("eximite_shovel", () -> new ShovelItem(ModTiers.EXIMITE, 1.5f, -3.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXIMITE_SWORD = ITEMS.register("eximite_sword", () -> new SwordItem(ModTiers.EXIMITE, 3, -2.4f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Gilded Netherite
     public static final RegistryObject<Item> GILDED_NETHERITE_BOOTS = ITEMS.register("gilded_netherite_boots", () -> new GildedNetheriteArmorItem(ModArmorMaterials.GILDED_NETHERITE, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "i",
+    "/"
+  ],
+  "key": {
+    "i": {
+      "item": "scalar_utils_arsenal:eximite_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:eximite_sword",
+    "count": 1
+  }
+}

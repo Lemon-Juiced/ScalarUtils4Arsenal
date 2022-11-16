@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_arsenal:meutoite_ingot"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_arsenal:meutoite_nugget",
+    "count": 9
+  }
+}

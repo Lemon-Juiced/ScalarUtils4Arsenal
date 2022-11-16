@@ -33,6 +33,7 @@ public class ModTiers {
     //public static final ForgeTier BLUTSTEIN = new ForgeTier(3, 4000, 12f, 3.0f, 10, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.BLUTSTEIN.get()));
     public static final ForgeTier BLUTSTEIN_UNBREAKABLE = new ForgeTier(3, -1, 12f, 3.0f, 10, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.BLUTSTEIN.get()));
     public static final ForgeTier COPPER = new ForgeTier(2, 131, 6.0F, 2.0F, 10, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(Items.COPPER_INGOT));
+    public static final ForgeTier EXIMITE = new ForgeTier(3, 1000, 7.0F, 2.5F, 25, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.EXIMITE_INGOT.get()));
     public static final ForgeTier MITHRIL = new ForgeTier(2, 6400, 10f, 3.0f, 10, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.MITHRIL_INGOT.get()));
     public static final ForgeTier VENCE = new ForgeTier(1, 60, 15f, 0f, 0, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(ModItems.BLUTSTEIN.get()));
 
