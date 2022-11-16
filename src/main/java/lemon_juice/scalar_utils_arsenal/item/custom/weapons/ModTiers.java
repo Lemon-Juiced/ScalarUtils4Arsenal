@@ -1,5 +1,6 @@
-package lemon_juice.scalar_utils_arsenal.item;
+package lemon_juice.scalar_utils_arsenal.item.custom.weapons;
 
+import lemon_juice.scalar_utils_arsenal.item.ModItems;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;

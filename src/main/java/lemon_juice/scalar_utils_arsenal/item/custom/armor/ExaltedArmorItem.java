@@ -13,8 +13,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class DesischalkosArmorItem extends GildedNetheriteArmorItem{
-    public DesischalkosArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
+public class ExaltedArmorItem extends DeischalkosArmorItem{
+    public ExaltedArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
         super(material, slot, properties);
     }
 
@@ -25,7 +25,7 @@ public class DesischalkosArmorItem extends GildedNetheriteArmorItem{
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag tooltipFlag) {
-        components.add(Component.literal("Full Set Grants Flight").withStyle(ChatFormatting.AQUA));
+        components.add(Component.literal("Stronger Than Netherite").withStyle(ChatFormatting.AQUA));
 
         super.appendHoverText(stack, level, components, tooltipFlag);
     }

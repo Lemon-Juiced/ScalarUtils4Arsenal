@@ -10,8 +10,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 
-public class DesichalkosChestplateItem extends DesischalkosArmorItem {
-    public DesichalkosChestplateItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
+public class ExaltedChestplateItem extends ExaltedArmorItem {
+    public ExaltedChestplateItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
         super(material, slot, properties);
     }
 
@@ -45,7 +45,7 @@ public class DesichalkosChestplateItem extends DesischalkosArmorItem {
     }
 
     private boolean hasCorrectArmorOn(Player player){
-        ArmorMaterial material = ModArmorMaterials.DEISCHALKOS;
+        ArmorMaterial material = ModArmorMaterials.EXALTED;
         if(player.getInventory().getArmor(0).getItem() == Items.AIR ||
                 (player.getInventory().getArmor(1).getItem() == Items.AIR) ||
                 (player.getInventory().getArmor(2).getItem() == Items.AIR) ||

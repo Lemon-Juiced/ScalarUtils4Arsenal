@@ -2,13 +2,11 @@ package lemon_juice.scalar_utils_arsenal.item;
 
 import lemon_juice.scalar_utils_arsenal.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_arsenal.ScalarUtilsArsenal;
-import lemon_juice.scalar_utils_arsenal.item.custom.armor.EtherealArmorItem;
-import lemon_juice.scalar_utils_arsenal.item.custom.armor.EtherealChestplateItem;
-import lemon_juice.scalar_utils_arsenal.item.custom.armor.GildedNetheriteArmorItem;
-import lemon_juice.scalar_utils_arsenal.item.custom.armor.ModArmorMaterials;
+import lemon_juice.scalar_utils_arsenal.item.custom.armor.*;
 import lemon_juice.scalar_utils_arsenal.item.custom.tools.ShickaxeItem;
 import lemon_juice.scalar_utils_arsenal.item.custom.weapons.BlazingBladeItem;
 import lemon_juice.scalar_utils_arsenal.item.custom.weapons.MassivenceItem;
+import lemon_juice.scalar_utils_arsenal.item.custom.weapons.ModTiers;
 import lemon_juice.scalar_utils_arsenal.item.custom.weapons.PalavenceItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -84,11 +82,11 @@ public class ModItems {
 
     //Deischalkos
     public static final RegistryObject<Item> DEISCHALKOS_AXE = ITEMS.register("deischalkos_axe", () -> new AxeItem(ModTiers.DEISCHALKOS, 6.0f, -3.1f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> DEISCHALKOS_BOOTS = ITEMS.register("deischalkos_boots", () -> new ArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> DEISCHALKOS_CHESTPLATE = ITEMS.register("deischalkos_chestplate", () -> new ArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> DEISCHALKOS_HELMET = ITEMS.register("deischalkos_helmet", () -> new ArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_BOOTS = ITEMS.register("deischalkos_boots", () -> new DeischalkosArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_CHESTPLATE = ITEMS.register("deischalkos_chestplate", () -> new DeischalkosChestplateItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_HELMET = ITEMS.register("deischalkos_helmet", () -> new DeischalkosArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> DEISCHALKOS_HOE = ITEMS.register("deischalkos_hoe", () -> new HoeItem(ModTiers.DEISCHALKOS, -2, -1.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-    public static final RegistryObject<Item> DEISCHALKOS_LEGGINGS = ITEMS.register("deischalkos_leggings", () -> new ArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> DEISCHALKOS_LEGGINGS = ITEMS.register("deischalkos_leggings", () -> new DeischalkosArmorItem(ModArmorMaterials.DEISCHALKOS, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> DEISCHALKOS_PICKAXE = ITEMS.register("deischalkos_pickaxe", () -> new PickaxeItem(ModTiers.DEISCHALKOS, 1, -2.8f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> DEISCHALKOS_SHICKAXE = ITEMS.register("deischalkos_shickaxe", () -> new ShickaxeItem(1, -2.8f, ModTiers.DEISCHALKOS, new Item.Properties().durability(7200).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> DEISCHALKOS_SHOVEL = ITEMS.register("deischalkos_shovel", () -> new ShovelItem(ModTiers.DEISCHALKOS, 1.5f, -3.0f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
@@ -99,6 +97,12 @@ public class ModItems {
     public static final RegistryObject<Item> ETHEREAL_CHESTPLATE = ITEMS.register("ethereal_chestplate", () -> new EtherealChestplateItem(ModArmorMaterials.ETHEREAL, EquipmentSlot.CHEST, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ETHEREAL_HELMET = ITEMS.register("ethereal_helmet", () -> new EtherealArmorItem(ModArmorMaterials.ETHEREAL, EquipmentSlot.HEAD, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> ETHEREAL_LEGGINGS = ITEMS.register("ethereal_leggings", () -> new EtherealArmorItem(ModArmorMaterials.ETHEREAL, EquipmentSlot.LEGS, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
+    //Exalted Armor
+    public static final RegistryObject<Item> EXALTED_BOOTS = ITEMS.register("exalted_boots", () -> new ExaltedArmorItem(ModArmorMaterials.EXALTED, EquipmentSlot.FEET, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXALTED_CHESTPLATE = ITEMS.register("exalted_chestplate", () -> new ExaltedChestplateItem(ModArmorMaterials.EXALTED, EquipmentSlot.CHEST, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXALTED_HELMET = ITEMS.register("exalted_helmet", () -> new ExaltedArmorItem(ModArmorMaterials.EXALTED, EquipmentSlot.HEAD, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> EXALTED_LEGGINGS = ITEMS.register("exalted_leggings", () -> new ExaltedArmorItem(ModArmorMaterials.EXALTED, EquipmentSlot.LEGS, new Item.Properties().durability(-1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     //Eximite
     public static final RegistryObject<Item> EXIMITE_AXE = ITEMS.register("eximite_axe", () -> new AxeItem(ModTiers.EXIMITE, 6.0f, -3.1f, new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));

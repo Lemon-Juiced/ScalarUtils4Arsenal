@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "scalar_utils_arsenal:gilded_netherite_helmet"
+  },
+  "addition": {
+    "item": "scalar_utils_arsenal:deischalkos_helmet"
+  },
+  "result": {
+    "item": "scalar_utils_arsenal:exalted_helmet"
+  }
+}
